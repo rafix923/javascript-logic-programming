@@ -1,15 +1,14 @@
 /* Exercícios de interpretação de código 3 de 3
 
-Analise o programa abaixo, entenda o que ele faz e sugira melhores nomes para as variáveis. 
-Lembre-se que devemos escolher nomes significativos, usar o padrão camelCase. 
-Alem disso, os nomes não podem começar com números ou caracteres especiais.
-
-let p = prompt("Quantas horas você trabalha por dia?")
-let t = prompt("Quanto você recebe por dia?")
-alert(`Voce recebe ${t/p} por hora`)
+3. Para o exercício anterior, sugira ao seu colega uma solução para que o valor impresso no console seja, de fato, a soma dos dois números.
 */
 
-// O programa abaixo calcula o valor que o usuário recebe por hora.
-let workingHoursDay = prompt("Quantas horas você trabalha por dia?")
-let earningPerDay = prompt("Quanto você recebe por dia?")
-alert(`Voce recebe ${workingHoursDay / workingHoursDay} por hora`)
+// Para o programa executar a soma dos dois números corretamente é necessário utilizar a classe 'Number'.
+// Isso converterá as strings em números.
+
+let primeiroNumero = Number(prompt("Digite um numero!"));
+let segundoNumero = Number(prompt("Digite outro numero!"));
+
+const soma = primeiroNumero + segundoNumero;
+
+console.log(soma)

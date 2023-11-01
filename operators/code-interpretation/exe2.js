@@ -1,12 +1,13 @@
 /* Exercícios de interpretação de código 2 de 3
 
-Analise o programa abaixo e diga o que será impresso no console, SEM EXECUTAR o programa.*/
+Seu colega se aproxima de você falando que o código dele não funciona como devia.  
+Vamos ajudá-lo: consegue perceber algum problema? O que será impresso no console?*/
 
-let a = 10
-let b = 20
-c = a
-b = c
-a = b
+let primeiroNumero = prompt("Digite um numero!");
+let segundoNumero = prompt("Digite outro numero!");
 
-console.log(a, b, c)
-// -> 10, 10, 10
+const soma = primeiroNumero + segundoNumero;
+
+console.log(soma)
+
+// O problema é que o código acima está concatenando os inputs do usuário ao em vez de fazer a operação de soma.
