@@ -4,5 +4,5 @@
 
 // const arrayOfWords = [];
 let phrase = "Vamos aprender lógica de programação com JavaScript";
-let arrayOfWorlds = phrase.split(" ");
-console.log(arrayOfWorlds); // -> ['Vamos', 'aprender', 'lógica', 'de', 'programação', 'com', 'JavaScript']
+let arrayOfWords = phrase.split(" ");
+console.log(arrayOfWords); // -> ['Vamos', 'aprender', 'lógica', 'de', 'programação', 'com', 'JavaScript']
