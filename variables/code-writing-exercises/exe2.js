@@ -5,7 +5,7 @@ Por exemplo: "Você está usando uma roupa azul hoje?". Depois, siga os passos:*
 
 const question1 = prompt("Você é desenvolvedor fullstack?")
 const question2 = prompt("Você gosta de ser desenvolvedor fullstack?")
-const question3 = prompt("Você pretende continuar estudanto e aprimorando suas habilidades?")
+const question3 = prompt("Você pretende continuar estudando e aprimorando suas habilidades?")
 
 // a) Crie três novas variáveis, contendo as respostas
 
