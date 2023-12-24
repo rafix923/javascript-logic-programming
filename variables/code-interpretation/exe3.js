@@ -10,6 +10,6 @@ alert(`Voce recebe ${t / p} por hora`) */
 
 
 // O programa abaixo calcula o valor que o usuário recebe por hora.
-let workingHoursDay = prompt("Quantas horas você trabalha por dia?")
+let laborHoursPerDay = prompt("Quantas horas você trabalha por dia?")
 let earningPerDay = prompt("Quanto você recebe por dia?")
-alert(`Voce recebe ${workingHoursDay / workingHoursDay} por hora`)
+alert(`Voce recebe ${earningPerDay / workingHoursDay} por hora`)
