@@ -7,7 +7,7 @@ let listaDeTarefas = [];
 
 // b) Pergunte ao usuário 3 tarefas que ele precise realizar no dia e armazene-as, uma por uma, no array
 const task1 = prompt("Qual foi a sua primeira tarefa do dia?");
-const task2 = prompt("Qual foi a sua segunda tarefa do dia");
+const task2 = prompt("Qual foi a sua segunda tarefa do dia?");
 const task3 = prompt("Qual foi a sua terceira tarefa do dia?");
 listaDeTarefas.push(task1, task2, task3).toString()
 
